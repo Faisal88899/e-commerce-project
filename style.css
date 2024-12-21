@@ -1,0 +1,69 @@
+:root{
+    --colorone:#D87D4A;
+    --colortwo:#101010;
+    --colorthree:#f1f1f1;
+    --colorfour:#fafafa;
+    --colorfive:#FBAf85;
+    --colorwhite:#ffffff;
+    --colorblack:#000000;
+
+    /* fonts */
+
+    --fontsize-XL:3.5rem;
+    --fontsize-L:2.5rem;
+    --fontsize-S:2rem;
+    --fontsize-sm:1.8rem;
+    --fontsize-xm:1.5rem;
+    --fontsize-para:1.2;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: var(--colortwo);
+    height: 80vh;
+    width: 100vw;
+
+}
+.container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: 10vh;
+    color: aliceblue;
+    margin:  auto;
+    
+    
+}
+.container nav .nav-name{
+    font-size: var(--fontsize-L);
+    font-weight: 900;
+}
+nav .nav-items ul{
+    display: flex;
+    gap: 30px;
+
+
+}
+.bar-icon{
+    display: none;
+}
+.nav-items ul li{
+    list-style: none;
+}
+.nav-items ul li a{
+    font-size: var(--fontsize-xm);
+    text-decoration: none;
+    color: var(--colorfour);
+}
+.container nav .nav-icons{
+    font-size:var(--fontsize-L);
+}
+hr{
+    width: 80vw; 
+    margin: auto;
+    opacity: 20%;
+}

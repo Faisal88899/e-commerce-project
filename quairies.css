@@ -1,0 +1,57 @@
+:root{
+    --colorone:#D87D4A;
+    --colortwo:#101010;
+    --colorthree:#f1f1f1;
+    --colorfour:#fafafa;
+    --colorfive:#FBAf85;
+    --colorwhite:#ffffff;
+    --colorblack:#000000;
+
+    /* fonts */
+
+    --fontsize-XL:3.5rem;
+    --fontsize-L:2.5rem;
+    --fontsize-S:2rem;
+    --fontsize-sm:1.8rem;
+    --fontsize-xm:1.5rem;
+    --fontsize-para:1.2;
+}
+@media (max-width:567px) {
+    nav .nav-items ul{
+        display: none;
+    }
+    html{
+        font-size: 8px;
+    }
+    .bar-icon{
+        display: block;
+        position: absolute;
+        font-size: var(--fontsize-L);
+        
+    }
+    .nav-name{
+    position: absolute;
+    left: 100px;
+    }
+}
+
+/* tablet */
+@media  (min-width:568px) and (max-width:900px){
+    html{
+        font-size: 10px;
+    }
+    nav .nav-items ul{
+        display: none;
+    }
+    .bar-icon{
+        display: block;
+        position: absolute;
+        font-size: var(--fontsize-L);
+        
+    }
+    .nav-name{
+        position: absolute;
+        left: 140px;
+        }
+    
+}
